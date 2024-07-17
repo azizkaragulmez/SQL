@@ -1,0 +1,74 @@
+1. test veritabanýnýzda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluþturalým.
+
+CREATE TABLE amployee 
+	(id SERIAL PRIMARY KEY ,
+	name VARCHAR(50),
+	birthday DATE,
+	Email VARCHAR(100));
+
+2.Oluþturduðumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
+
+insert into amployee (name, birthday, email) values ('Morley', '2016-10-06', 'mstiegar0@abc.net.au');
+insert into amployee (name, birthday, email) values ('Beckie', '2016-09-24', 'bpurdie1@list-manage.com');
+insert into amployee (name, birthday, email) values ('Jefferson', '2013-11-22', 'jwiltsher2@issuu.com');
+insert into amployee (name, birthday, email) values ('Temple', '2020-02-08', 'tcheshire3@reuters.com');
+insert into amployee (name, birthday, email) values ('Terrel', '2022-12-23', 'tsacker4@cdbaby.com');
+insert into amployee (name, birthday, email) values ('Vladamir', '2024-01-26', 'valliker5@indiegogo.com');
+insert into amployee (name, birthday, email) values ('Simmonds', '2021-08-15', 'sgerred6@disqus.com');
+insert into amployee (name, birthday, email) values ('Griswold', '2020-03-21', 'gbenge7@ed.gov');
+insert into amployee (name, birthday, email) values ('Thebault', '2013-10-18', 'ttinsley8@bloglovin.com');
+insert into amployee (name, birthday, email) values ('Ignazio', '2019-06-22', 'igomer9@ebay.co.uk');
+insert into amployee (name, birthday, email) values ('Phillip', '2014-03-22', 'phatcharda@toplist.cz');
+insert into amployee (name, birthday, email) values ('Issy', '2015-02-13', 'ihallbirdb@mashable.com');
+insert into amployee (name, birthday, email) values ('Ynez', '2017-12-13', 'ygilluleyc@tinyurl.com');
+insert into amployee (name, birthday, email) values ('Allix', '2022-07-03', 'akerrodd@cloudflare.com');
+insert into amployee (name, birthday, email) values ('Erek', '2024-07-15', 'eduinbletone@is.gd');
+insert into amployee (name, birthday, email) values ('Jemima', '2020-03-21', 'jdowlingf@nifty.com');
+insert into amployee (name, birthday, email) values ('Cindee', '2016-02-26', 'cnoddingsg@amazonaws.com');
+insert into amployee (name, birthday, email) values ('Nerte', '2015-04-27', 'nmollenh@comsenz.com');
+insert into amployee (name, birthday, email) values ('Allan', '2018-09-06', 'apankhursti@paginegialle.it');
+insert into amployee (name, birthday, email) values ('Claudelle', '2023-11-16', 'cbartaluccij@shop-pro.jp');
+insert into amployee (name, birthday, email) values ('Wainwright', '2019-04-09', 'warrandalek@ovh.net');
+insert into amployee (name, birthday, email) values ('Nickey', '2017-03-03', 'nhenmarshl@comsenz.com');
+insert into amployee (name, birthday, email) values ('Kirstin', '2015-02-01', 'knoquetm@engadget.com');
+insert into amployee (name, birthday, email) values ('Paul', '2013-09-16', 'pmcgeachyn@jiathis.com');
+insert into amployee (name, birthday, email) values ('Koenraad', '2023-03-28', 'kvogelero@ebay.co.uk');
+insert into amployee (name, birthday, email) values ('Peria', '2016-01-11', 'pbossp@redcross.org');
+insert into amployee (name, birthday, email) values ('Wyn', '2020-04-03', 'wcorkittq@facebook.com');
+insert into amployee (name, birthday, email) values ('Aubrie', '2021-07-01', 'aransfieldr@netscape.com');
+insert into amployee (name, birthday, email) values ('Raynell', '2020-08-02', 'rlunges@sciencedaily.com');
+insert into amployee (name, birthday, email) values ('Maighdiln', '2021-10-31', 'mgoodlettt@cargocollective.com');
+insert into amployee (name, birthday, email) values ('Tom', '2018-06-26', 'tprineu@webmd.com');
+insert into amployee (name, birthday, email) values ('Arabella', '2020-10-04', 'abrumwellv@yolasite.com');
+insert into amployee (name, birthday, email) values ('Ada', '2014-07-18', 'aairesw@blinklist.com');
+insert into amployee (name, birthday, email) values ('Othella', '2018-01-19', 'opettegreex@dell.com');
+insert into amployee (name, birthday, email) values ('Edie', '2022-01-05', 'erewany@printfriendly.com');
+insert into amployee (name, birthday, email) values ('Torrie', '2020-10-22', 'tdesimonez@paypal.com');
+insert into amployee (name, birthday, email) values ('Consuela', '2019-03-21', 'cheap10@abc.net.au');
+insert into amployee (name, birthday, email) values ('Sarge', '2021-03-22', 'sflag11@friendfeed.com');
+insert into amployee (name, birthday, email) values ('Josh', '2021-09-08', 'jhanson12@altervista.org');
+insert into amployee (name, birthday, email) values ('Atalanta', '2018-08-26', 'amedlin13@theatlantic.com');
+insert into amployee (name, birthday, email) values ('Alf', '2020-11-28', 'abavin14@google.com.br');
+insert into amployee (name, birthday, email) values ('Lockwood', '2014-12-08', 'ljolland15@flickr.com');
+insert into amployee (name, birthday, email) values ('Maia', '2019-01-24', 'mwastell16@usda.gov');
+insert into amployee (name, birthday, email) values ('Claire', '2024-04-06', 'cbampkin17@aol.com');
+insert into amployee (name, birthday, email) values ('Alejoa', '2018-08-09', 'ahatherleigh18@tripadvisor.com');
+insert into amployee (name, birthday, email) values ('Christalle', '2016-03-14', 'cchallen19@sitemeter.com');
+insert into amployee (name, birthday, email) values ('Windham', '2019-11-16', 'wfishpond1a@usnews.com');
+insert into amployee (name, birthday, email) values ('Merl', '2015-11-09', 'mmatevushev1b@clickbank.net');
+insert into amployee (name, birthday, email) values ('Leshia', '2016-04-25', 'llambertini1c@tiny.cc');
+insert into amployee (name, birthday, email) values ('Amberly', '2021-04-07', 'akoene1d@salon.com');
+
+
+3.Sütunlarýn her birine göre diðer sütunlarý güncelleyecek 5 adet UPDATE iþlemi yapalým.
+UPDATE amployee
+SET name= 'Ali',
+	birthday= '2000-06-01',
+	email='karagulmez.aziz@iclod.com'
+WHERE name LIKE 'M%'
+
+
+4.Sütunlarýn her birine göre ilgili satýrý silecek 5 adet DELETE iþlemi yapalým.
+DELETE FROM amployee
+WHERE name LIKE 'A%'
+RETURNING *;
