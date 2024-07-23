@@ -1,0 +1,22 @@
+1.actor ve customer tablolarýnda bulunan first_name sütunlarý için tüm verileri sýralayalým.
+(SELECT first_name FROM customer)
+
+UNION ALL
+
+(SELECT first_name FROM actor);
+
+
+2.actor ve customer tablolarýnda bulunan first_name sütunlarý için kesiþen verileri sýralayalým.
+(SELECT first_name FROM customer)
+
+INTERSECT ALL
+
+(SELECT first_name FROM actor);
+
+
+3.actor ve customer tablolarýnda bulunan first_name sütunlarý için ilk tabloda bulunan ancak ikinci tabloda bulunmayan verileri sýralayalým.
+(SELECT first_name FROM customer)
+
+EXCEPT ALL
+
+(SELECT first_name FROM actor);
